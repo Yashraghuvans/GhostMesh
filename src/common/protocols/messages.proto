@@ -1,0 +1,23 @@
+// Protobuf message definitions for cross-language compatibility
+// [cite: 94, 211]
+
+syntax = "proto3";
+
+package ghostmesh.protocols;
+
+message EncryptedMessage {
+    bytes ciphertext = 1;
+    bytes nonce = 2;
+    bytes ephemeral_key = 3;
+}
+
+message OnionPacket {
+    bytes layer_1 = 1;
+    bytes layer_2 = 2;
+    bytes layer_3 = 3;
+}
+
+message SafetyNumber {
+    string identifier = 1;
+    bytes hash = 2;
+}
