@@ -1,0 +1,17 @@
+# Docker Compose for relay node deployment
+
+version: '3.8'
+
+services:
+  relay:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - LOG_LEVEL=INFO
+    volumes:
+      - relay_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  relay_data:
