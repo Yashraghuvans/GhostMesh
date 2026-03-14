@@ -1,6 +1,6 @@
-<div align="center">
+![CoverImage](https://github.com/Yashraghuvans/GhostMesh/blob/main/banner.png)
 
-# Ghost Mesh
+<div align="center">
 
 [![Contributors](https://img.shields.io/github/contributors/yashraghuvans/ghostmesh?style=for-the-badge&color=orange)](https://github.com/yashraghuvans/ghostmesh/graphs/contributors)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
